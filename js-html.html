@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/js-html.css">
+        <title>styles</title>
+    </head>
+    <body onload="init()">
+        <h1>Connecting JS to HTML</h1>
+        <h2>It's so much fun</h2>
+
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, dolore.</p>
+            <button onclick="changeContent()">Change Content</button>
+        </div>
+
+        <button onclick="sayHi(8)">Pass num</button>
+        <button onclick="passEvent(event)">Pass event</button>
+        <button onclick="passThis(this)">Pass this</button>
+        <button onclick="getHeading()">Get Heading</button>
+        <button onclick="getButtons()">Get Buttons</button>
+        <button onclick="changeHeading()">Change Heading</button>
+        <button onclick="styleHeading()">Style Heading</button>
+        <button onclick="hideHeading()">Hide Heading</button>
+        <button onclick="addClass('fancy')">Add Class</button>
+        <button onclick="toggleHeading()">Toggle Heading</button>
+        <button onclick="toggleHeading2()">Toggle Heading 2</button>
+        
+        <script src="js/styles.js"></script>
+    </body>
+</html>

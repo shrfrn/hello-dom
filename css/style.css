@@ -1,0 +1,41 @@
+.pretty-heading {
+    color: orange;
+    font-style: italic;
+}
+
+.pretty-text {
+    width: 300px;
+    margin: 50px auto;
+
+    /* padding: 20px 40px 10px 50px ; */
+    /* padding: 20px 40px 10px ; */
+    /* padding: 20px 40px ; */
+    padding: 20px ;
+    /* padding-left: 40px; */
+    border: 10px solid red;
+    /* margin: 90px; */
+    /* margin-right: 10px; */
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center-text {
+    text-align: center;
+}
+
+a img {
+    width: 20px;
+}
+
+div {
+    background-color: lightblue;
+}
+
+span {
+    width: 200px; /* This has no effect */
+    background-color: lightblue;
+}
+
+span:hover {
+    background-color: pink;
+}
